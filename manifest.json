@@ -1,0 +1,138 @@
+{
+  "id": "/pdccarguide/",
+  "name": "2026 Practical Driving Course (PDC) Car Guide",
+  "short_name": "PDC Guide 2026",
+  "description": "Offline study guide, checklists and mock assessment for the 2026 Practical Driving Course.",
+  "start_url": "/pdccarguide/index.html",
+  "scope": "/pdccarguide/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "orientation": "any",
+  "background_color": "#0F172A",
+  "theme_color": "#0F172A",
+  "lang": "en",
+  "categories": [
+    "education",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-monochrome.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "monochrome"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Pre-drive checklist",
+      "short_name": "Pre-drive checklist",
+      "url": "/pdccarguide/index.html?view=pre-drive",
+      "icons": [
+        {
+          "src": "icons/shortcut-checklist.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Maneuvers",
+      "short_name": "Maneuvers",
+      "url": "/pdccarguide/index.html?view=maneuvers",
+      "icons": [
+        {
+          "src": "icons/shortcut-maneuvers.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Mock test",
+      "short_name": "Mock test",
+      "url": "/pdccarguide/index.html?view=assessment",
+      "icons": [
+        {
+          "src": "icons/shortcut-mocktest.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/screenshot-mobile.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "screenshots/screenshot-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
+}
